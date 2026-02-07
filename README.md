@@ -1,0 +1,1 @@
+These are the templates and slides from my talk at the 2026 R!sk conference with the RConsortium, titled, "How to use ensembles with risk data". A HUGE thank-you to the RConsortium for all their help and support to everyone involved with the conference! This was very cool and a lot of fun!! Thank you to everyone!!
