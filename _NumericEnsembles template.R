@@ -28,17 +28,8 @@ Numeric(data = Insurance,
   duration
   warnings()
 
-tempdir()
+# Other numeric data sets to check out with NumericEnsembles:
 
-# Set seed = 1 -> lowest RMSE = 53.017
+# NumericEnsembles::BostonHousing
 
-#### https://www.kaggle.com/competitions/kmit-competition-regression-i-insurance/leaderboard #### $4,725.21766
-
-#### https://www.kaggle.com/competitions/abes-data-science-challenge-2025/data #### $2,167.23276
-
-#### https://www.kaggle.com/competitions/datacept-insurance-charges-prediction/leaderboard #### $4,774.06854
-
-#### https://www.kaggle.com/competitions/examen-machine-learning-and-data-viz-22-23-a4-evd/leaderboard #### $4,217.16664
-
-#### Demo with ISLR data set ####
-#### Demo with ISLR data set ####
+# NumericEnsembles::Concrete
