@@ -1,3 +1,4 @@
+options(rgl.useNULL = TRUE, rgl.printRglwidget = TRUE) #https://github.com/dmurdoch/rgl/issues/488 ## This line prevents rgl warnings
 library(rgl)
 library(LogisticEnsembles)
 
