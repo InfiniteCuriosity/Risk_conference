@@ -3,7 +3,7 @@ library(rgl)
 library(LogisticEnsembles)
 
 start_time <- Sys.time()
-Logistic(data = Diabetes,
+Logistic(data = SAHeart,
          colnum = 9,
          numresamples = 2,
          remove_VIF_greater_than <- 5.00,
@@ -25,10 +25,10 @@ warnings()
 
 # Also look at:
 
-# LogisticEnsembles::Cervical_cancer
+# LogisticEnsembles::Cervical_cancer ## Taret column is Biopsy, column #34
 
-# LogisticEnsembles::German_Credit_Risk
+# LogisticEnsembles::German_Credit_Risk ## Target column is Class, column # 21
 
-# LogisticEnsembles::SAHeart
+# LogisticEnsembles::SAHeart ## Target column is chd, column #10
 
-# LogisticEnsembles::Lebron
+# LogisticEnsembles::Lebron ## Target column is Result, column #6
